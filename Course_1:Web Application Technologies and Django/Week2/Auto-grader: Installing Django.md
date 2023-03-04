@@ -97,12 +97,14 @@ def index(request): <br>
 &emsp;return HttpResponse("Hello, world. You're at the polls index.") <br>
 
 
+
 ### polls/urls.py
 from django.urls import path <br>
 from . import views <br>
 urlpatterns = [ <br>
 &emsp;path('', views.index, name='index'), <br>
 ]<br>
+
 
 
 ### mysite/mysite/urls.py
@@ -113,7 +115,9 @@ urlpatterns = [ <br>
 &emsp;path('admin/', admin.site.urls), <br>
 ] <br>
 
-### check site re=un command
+
+
+### check site run command
 python manage.py check <br>
 
 <hr>
