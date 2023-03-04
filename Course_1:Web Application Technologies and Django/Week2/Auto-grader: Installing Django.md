@@ -67,7 +67,7 @@ http://(your-account).pythonanywhere.com/
 # Adding Your Polls Application
 
 ## The first step is to make the polls application:
-cd ~/django_projects/mysite
+cd ~/django_projects/mysite <br>
 python manage.py startapp polls
 
 ## Do not run the runserver command on PythonAnywhere. Instead run the following command:
