@@ -1,4 +1,4 @@
-# <u>Step 1: Setting Up Your Environment </u>
+# Step 1: Setting Up Your Environment
 
 ### Once you have created your PYAW account, start a bash shell and set up a virtual environment with Python 3.x and Django 4.
 mkvirtualenv django4 --python=/usr/bin/python3.9 <br>
@@ -13,7 +13,7 @@ python --version <br>
 python -m django --version <br>
 #This should show something like 4.0.7
 
-# Installing the Sample Code for DJ4E
+## Installing the Sample Code for DJ4E
 ### Lets also get a copy of the sample code for DJ4E checked out so you can look at sample code as the course progresses and install some important additional Django software libraries using pip.
 
 cd ~ <br>
@@ -22,13 +22,13 @@ cd dj4e-samples <br>
 pip install -r requirements4.txt <br>
 python manage.py check <br>
 
-# When running 'check' works
+## When running 'check' works
 ### Once the check works do:
 python manage.py makemigrations <br>
 ### Then run:
 python manage.py migrate <br>
 
-# Building Your Application
+## Building Your Application
 ### Now that we have your Django set up and you have retrieved the sample code for DJ4E, lets build your first application in the PYAW shell:
 
 cd ~ <br>
@@ -63,9 +63,9 @@ application = StaticFilesHandler(get_wsgi_application()) <br>
 
 http://(your-account).pythonanywhere.com/ <br>
 
-# Adding Your Polls Application
+## Adding Your Polls Application
 
-## The first step is to make the polls application:
+### The first step is to make the polls application:
 cd ~/django_projects/mysite <br>
 python manage.py startapp polls <br>
 
@@ -76,10 +76,52 @@ python manage.py check <br>
 ### You should see a line that looks like:
 Hello, world. You're at the polls index. <br>
 
-## Going forward, every time we make changes to our application, we should run
+### Going forward, every time we make changes to our application, we should run
 python manage.py check <br>
 
 
-# Do you have two mysite folders?
+## Do you have two mysite folders?
 <img src="https://www.dj4e.com/assn/dj4e_install/install_cleanup.png">
 
+# Step 2: Setting Up Your Environment
+cd ~/django_projects/mysite <br>
+django-admin startproject mysite <br>
+python manage.py startapp polls <br>
+
+### polls/views.py
+from django.http import HttpResponse <br>
+
+def index(request): <br>
+&emsp;return HttpResponse("Hello, world. You're at the polls index.") <br>
+
+
+
+### polls/urls.py
+from django.urls import path <br>
+from . import views <br>
+
+urlpatterns = [ <br>
+&emsp;path('', views.index, name='index'), <br>
+]<br>
+
+
+
+### mysite/mysite/urls.py
+from django.contrib import admin <br>
+from django.urls import include, path <br>
+
+urlpatterns = [ <br>
+&emsp;path('polls/', include('polls.urls')), <br>
+&emsp;path('admin/', admin.site.urls), <br>
+] <br>
+
+### check site re=un command
+python manage.py check <br>
+
+<hr>
+
+# Step 3: According to Question
+
+## change it as per given code for submission 
+### polls/views.py
+&emsp;return HttpResponse("Hello, world. 6a16ba9f is the polls index.") <br>
