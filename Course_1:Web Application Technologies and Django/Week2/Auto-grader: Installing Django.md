@@ -51,7 +51,7 @@ Virtualenv: /home/username/.virtualenvs/django4 <br>
 ### <p style="color:red;"> Replace username with your account on PythonAnywhere.</p>
 
 ### Static files:  (Change URL)
-/static/ &emsp; -> &emsp; /home/20BCS9258/django_projects/mysite/static	 
+/static/ &emsp; -> &emsp; /home/20BCS9258/django_projects/mysite/static	 <br>
 /media/	&emsp; -> &emsp; /home/20BCS9258/django_projects/mysite/media	 
 
 ### now go to files and remove file as shown in below image.
