@@ -45,7 +45,7 @@ Source code: /home/drchuck/django_projects/mysite
 Working directory: /home/drchuck/django_projects/mysite
 Virtualenv: /home/drchuck/.virtualenvs/django4
 
-### <a style="color:red;"> Replace drchuck with your account on PythonAnywhere.</a>
+### <p style="color:red;"> Replace drchuck with your account on PythonAnywhere.</p>
 
 ### Then edit the WGSI Configuration File and put the following code into it. Make sure to delete the existing content of the WGSI Configuration File file and completely replace it with the text below. This is slightly different from the sample in the PythonAnywhere tutorial.
 
