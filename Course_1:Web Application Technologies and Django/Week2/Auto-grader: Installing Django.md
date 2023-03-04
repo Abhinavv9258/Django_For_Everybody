@@ -82,4 +82,5 @@ python manage.py check
 
 
 # Do you have two mysite folders?
+<img src="https://www.dj4e.com/assn/dj4e_install/install_cleanup.png">
 
