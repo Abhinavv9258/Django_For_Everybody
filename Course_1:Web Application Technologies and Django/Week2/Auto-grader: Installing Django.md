@@ -1,4 +1,4 @@
-# Setting Up Your Environment
+# <u>Step 1: Setting Up Your Environment </u>
 
 ### Once you have created your PYAW account, start a bash shell and set up a virtual environment with Python 3.x and Django 4.
 mkvirtualenv django4 --python=/usr/bin/python3.9 <br>
