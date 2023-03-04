@@ -54,7 +54,7 @@ import sys <br>
 
 path = os.path.expanduser('~/django_projects/mysite') <br>
 if path not in sys.path: <br>
-&emsp sys.path.insert(0, path) <br>
+<html>&emsp</html> sys.path.insert(0, path) <br>
 os.environ['DJANGO_SETTINGS_MODULE'] = 'mysite.settings' <br>
 from django.core.wsgi import get_wsgi_application <br>
 from django.contrib.staticfiles.handlers import StaticFilesHandler <br>
