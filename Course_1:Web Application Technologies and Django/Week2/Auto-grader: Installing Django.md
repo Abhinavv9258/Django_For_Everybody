@@ -9,9 +9,9 @@ workon django4
 
 ### Lets make sure that your django was installed successfully and you are running the rght version of Python with the following commands:
 python --version <br>
-<!-- This should show something like Python 3.9.5 -->
+#This should show something like Python 3.9.5
 python -m django --version <br>
-<!-- This should show something like 4.0.7 -->
+#This should show something like 4.0.7
 
 # Installing the Sample Code for DJ4E
 ### Lets also get a copy of the sample code for DJ4E checked out so you can look at sample code as the course progresses and install some important additional Django software libraries using pip.
@@ -51,7 +51,6 @@ Virtualenv: /home/drchuck/.virtualenvs/django4 <br>
 
 import os <br>
 import sys <br>
-
 path = os.path.expanduser('~/django_projects/mysite') <br>
 if path not in sys.path: <br>
 &emsp; sys.path.insert(0, path) <br>
