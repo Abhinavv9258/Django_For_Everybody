@@ -41,13 +41,21 @@ django-admin startproject mysite <br>
 ALLOWED_HOSTS = [ '*' ]
 
 ### Open web -> scroll down and make changes  
-Source code: /home/drchuck/django_projects/mysite <br>
-Working directory: /home/drchuck/django_projects/mysite <br>
-Virtualenv: /home/drchuck/.virtualenvs/django4 <br>
+### add new web app -> click next -> select -> django -> python 3.9 -> next 
 
-### <p style="color:red;"> Replace drchuck with your account on PythonAnywhere.</p>
+Source code: /home/username/django_projects/mysite <br>
+Working directory: /home/username/django_projects/mysite <br>
 
-### Then edit the WGSI Configuration File and put the following code into it. Make sure to delete the existing content of the WGSI Configuration File file and completely replace it with the text below. This is slightly different from the sample in the PythonAnywhere tutorial.
+Virtualenv: /home/username/.virtualenvs/django4 <br>
+
+### <p style="color:red;"> Replace username with your account on PythonAnywhere.</p>
+
+### Static files:  (Change URL)
+/static/ &emsp; -> &emsp; /home/20BCS9258/django_projects/mysite/static	 
+/media/	&emsp; -> &emsp; /home/20BCS9258/django_projects/mysite/media	 
+
+### now go to files and remove file as shown in below image.
+### Then below directory edit the WGSI Configuration File and put the following code into it. Make sure to delete the existing content of the WGSI Configuration File file and completely replace it with the text below. This is slightly different from the sample in the PythonAnywhere tutorial.
 
 import os <br>
 import sys <br>
