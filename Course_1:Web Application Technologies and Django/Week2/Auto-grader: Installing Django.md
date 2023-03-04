@@ -83,33 +83,31 @@ python manage.py check <br>
 ## Do you have two mysite folders?
 <img src="https://www.dj4e.com/assn/dj4e_install/install_cleanup.png">
 
-# Step 2: Setting Up Your Environment
+# Step 2: Setting Up Your App
+
+## From Dashboard select Consoles and delete old Consoles and open new Bash and write below commands
+
 cd ~/django_projects/mysite <br>
 django-admin startproject mysite <br>
 python manage.py startapp polls <br>
 
 ### polls/views.py
 from django.http import HttpResponse <br>
-
 def index(request): <br>
 &emsp;return HttpResponse("Hello, world. You're at the polls index.") <br>
-
 
 
 ### polls/urls.py
 from django.urls import path <br>
 from . import views <br>
-
 urlpatterns = [ <br>
 &emsp;path('', views.index, name='index'), <br>
 ]<br>
 
 
-
 ### mysite/mysite/urls.py
 from django.contrib import admin <br>
 from django.urls import include, path <br>
-
 urlpatterns = [ <br>
 &emsp;path('polls/', include('polls.urls')), <br>
 &emsp;path('admin/', admin.site.urls), <br>
