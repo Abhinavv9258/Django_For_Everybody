@@ -8,7 +8,7 @@ as per in the instructions
 ## after above instructiions follow as below:
 create a new file named "dj4e.htm" in the directory /home/Abhinav9258/django_projects/mysite/site/dj4e.htm<br>
 <p>
-<!DOCTYPE html>
+'<!DOCTYPE html>
 <html>
 <head>
     <title> ... ac6193 ... </title>
@@ -32,5 +32,5 @@ create a new file named "dj4e.htm" in the directory /home/Abhinav9258/django_pro
         <a href="https://abhinavv9258.pythonanywhere.com/site/dj4e.html">Abhinav</a>
     </div>
 </body>
-</html>
+</html>'
 <p>
