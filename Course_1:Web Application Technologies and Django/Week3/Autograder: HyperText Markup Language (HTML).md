@@ -34,3 +34,8 @@ create a new file named "dj4e.htm" in the directory /home/Abhinav9258/django_pro
 &lt;/body&gt;
 &lt;/html&gt;
 </pre>
+
+##Your name and code will be different from this example.
+
+##Your HTML must pass the validator at:
+https://validator.w3.org/nu/
