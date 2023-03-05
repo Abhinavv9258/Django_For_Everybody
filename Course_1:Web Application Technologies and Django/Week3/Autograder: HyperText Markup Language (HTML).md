@@ -8,29 +8,29 @@ as per in the instructions
 ## after above instructiions follow as below:
 create a new file named "dj4e.htm" in the directory /home/Abhinav9258/django_projects/mysite/site/dj4e.htm<br>
 <pre>
-<!DOCTYPE html>
-<html>
-<head>
-    <title> ... ac6193 ... </title>
-  <meta charset="UTF-8">
-</head>
-<body>
-    <span>Abhinav</span>
-    <div>Abhinav
-        <ul>
-            <li>Abhinav</li>
-            <li>Abhinav</li>
-            <li>Abhinav</li>
-            <li>Abhinav</li>
-            <li>Abhinav</li>
-        </ul>
-        <h1>Abhinav</h1>
-        <strong>Abhinav</strong>
-        <em>Abhinav</em>
-        <a href="https://abhinavv9258.pythonanywhere.com/site/dj4e.html">Abhinav</a>
-        <a href="https://abhinavv9258.pythonanywhere.com/site/dj4e.html">Abhinav</a>
-        <a href="https://abhinavv9258.pythonanywhere.com/site/dj4e.html">Abhinav</a>
-    </div>
-</body>
-</html>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt; ... ac6193 ... &lt;/title&gt;
+  &lt;meta charset="UTF-8"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;span&gt;Abhinav&lt;/span&gt;
+    &lt;div&gt;Abhinav
+        &lt;ul&gt;
+            &lt;li&gt;Abhinav&lt;/li&gt;
+            &lt;li&gt;Abhinav&lt;/li&gt;
+            &lt;li&gt;Abhinav&lt;/li&gt;
+            &lt;li&gt;Abhinav&lt;/li&gt;
+            &lt;li&gt;Abhinav&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;h1&gt;Abhinav&lt;/h1&gt;
+        &lt;strong&gt;Abhinav&lt;/strong&gt;
+        &lt;em&gt;Abhinav&lt;/em&gt;
+        &lt;a href="https://abhinavv9258.pythonanywhere.com/site/dj4e.html"&gt;Abhinav&lt;/a&gt;
+        &lt;a href="https://abhinavv9258.pythonanywhere.com/site/dj4e.html"&gt;Abhinav&lt;/a&gt;
+        &lt;a href="https://abhinavv9258.pythonanywhere.com/site/dj4e.html"&gt;Abhinav&lt;/a&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
 </pre>
